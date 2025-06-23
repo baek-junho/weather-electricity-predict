@@ -10,7 +10,7 @@
 - Streamlit
 
 ## 📁 프로젝트 구조
-weather-electricity-predict/
+```weather-electricity-predict/
 ├── data/
 │ ├── raw/
 │ └── processed/
@@ -21,7 +21,7 @@ weather-electricity-predict/
 ├── app/
 │ └── streamlit_app.py
 ├── README.md
-└── requirements.txt
+└── requirements.txt```
 
 
 ## ✅ 진행 계획
