@@ -31,7 +31,7 @@ def get_weather(api_key, base_date, base_time, nx=55, ny=124):
     return df
 
 if __name__ == "__main__":
-    api_key = "FFQ3qS+8EfiOz0e8oCxBh3EXfR/SFLqU4wfYmnVCdNbEV1STR6grUYKyoTc8WWRvgYk+BY4F6HNuK+1gMuFT8A=="
+    api_key = "발급받은 API KEY"
     today = datetime.now().strftime('%Y%m%d')
     df = get_weather(api_key, today, "0500")
     df.to_csv("weather-electricity-predict/data/raw/weather_sample.csv", index=False)
