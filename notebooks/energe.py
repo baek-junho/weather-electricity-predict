@@ -58,7 +58,7 @@ def fetch_monthly_power_data(year: int, month: int, api_key: str):
 
 # --- 실행 파트 ---
 # ✅ API 키
-api_key = "88dNSlK6CNcC6aZz64Rz9jY3H6Hzkqx03ZhoHkxp"
+api_key = "API 키 입력"
 
 all_data = []
 for y in range(2022, 2024):  # 예: 2022년~2023년
